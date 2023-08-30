@@ -1,1 +1,13 @@
 /*  your css code here. If applicable */
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation: pulse-animation 1s ease-in-out 0s infinite alternate;
+}
+@keyframes pulse-animation {
+    100%{
+        width: 150px;
+        height: 150px;
+    }   
+}
