@@ -3,9 +3,9 @@
     width: 100px;
     height: 100px;
     background-color: red;
-    animation: pulse-animation 1s ease-in-out 0s infinite alternate;
+    animation: pulse 1s ease-in-out 0s infinite alternate;
 }
-@keyframes pulse-animation {
+@keyframes pulse {
     100%{
         width: 150px;
         height: 150px;
